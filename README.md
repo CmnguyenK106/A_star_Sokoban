@@ -23,8 +23,8 @@ sokoban_project/
 Copy these 4 Python files into your project folder:
 - `astar.py` - From "A* Algorithm Implementation"
 - `sokoban_solver.py` - From "Sokoban Solver using A*"
-- `levels_loader_folder.py` - From "Level Loader for Text Files in Folder"
-- `sokoban_ui_final.py` - From "Sokoban Game UI - Final Version"
+- `levels_loader.py` - From "Level Loader for Text Files in Folder"
+- `sokoban_ui.py` - From "Sokoban Game UI - Final Version"
 - `generate_levels.py` - From "Level Generator Script"
 
 ### Step 2: Generate Level Files
@@ -191,7 +191,7 @@ pip install pygame
 Create `test_all_levels.py`:
 
 ```python
-from levels_loader_folder import LevelsFolderLoader
+from levels_loader import LevelsFolderLoader
 from sokoban_solver import SokobanSolver
 import time
 
@@ -300,5 +300,6 @@ If something doesn't work:
 3. Ensure pygame is installed: `pip install pygame`
 
 4. Check Python version: `python --version` (need 3.6+)
+
 
 
