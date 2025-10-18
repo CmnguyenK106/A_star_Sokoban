@@ -1,6 +1,6 @@
     # Sokoban Game with Folder-Based Levels - Complete Setup Guide
 
-## 📁 A star Sokoban game
+## 📁 A* Sokoban game
 
 ```
 sokoban_project/
@@ -300,4 +300,5 @@ If something doesn't work:
 3. Ensure pygame is installed: `pip install pygame`
 
 4. Check Python version: `python --version` (need 3.6+)
+
 
