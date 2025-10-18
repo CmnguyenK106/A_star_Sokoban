@@ -6,8 +6,8 @@
 sokoban_project/
 ├── astar.py                      # Generic A* algorithm
 ├── sokoban_solver.py             # Game logic & solver
-├── levels_loader_folder.py       # Loads levels from folder
-├── sokoban_ui_final.py           # Main game UI
+├── levels_loader.py       # Loads levels from folder
+├── sokoban_ui.py           # Main game UI
 ├── generate_levels.py            # Script to generate level files
 └── levels/                       # Folder with all level files
     ├── level_001.txt
@@ -298,4 +298,5 @@ If something doesn't work:
 1. Check all 5 Python files are in same directory
 2. Verify `levels` folder with 100 files exists
 3. Ensure pygame is installed: `pip install pygame`
+
 4. Check Python version: `python --version` (need 3.6+)
