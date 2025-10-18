@@ -255,8 +255,8 @@ GRID_HEIGHT = 10    # Change to your height
 |------|---------|
 | `astar.py` | Generic A* pathfinding algorithm |
 | `sokoban_solver.py` | Sokoban game logic & A* integration |
-| `levels_loader_folder.py` | Loads level files from folder |
-| `sokoban_ui_final.py` | Pygame UI & main game loop |
+| `levels_loader.py` | Loads level files from folder |
+| `sokoban_ui.py` | Pygame UI & main game loop |
 | `generate_levels.py` | Creates 100 level text files |
 
 ## 🎓 Learning Resources
@@ -300,6 +300,7 @@ If something doesn't work:
 3. Ensure pygame is installed: `pip install pygame`
 
 4. Check Python version: `python --version` (need 3.6+)
+
 
 
 
